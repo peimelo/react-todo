@@ -3,12 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4"
-  },
-  "devDependencies": {
-    "gh-pages": "^1.0.0",
-    "react-scripts": "0.9.5"
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-scripts": "1.0.10"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -18,5 +15,8 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "http://peimelo.github.io/react-todo"
+  "homepage": "http://peimelo.github.io/react-todo",
+  "devDependencies": {
+    "gh-pages": "^1.1.0"
+  }
 }
